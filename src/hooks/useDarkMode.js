@@ -11,6 +11,10 @@ export const useDarkMode = (initialValues) => {
             document.body.classList.add("dark-mode");
         } else { document.body.classList.remove("dark-mode") };
 
+        //ternery version of if statement
+        //const body = document.querySelector('body');
+        // darkMod ? body.classList.add('dark-mode) : body.classList.remove('dark-mode);
+
 
     }, [darkMode]);
 
